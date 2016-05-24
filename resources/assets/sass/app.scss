@@ -1,2 +1,35 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+body
+{
+	font-family: 'Lato';
+	text-align: center;
+}
+
+header
+{
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+#contentBody
+{
+    margin-top: 10px;
+}
+
+#contentBody2
+{
+	margin-top: 20px;
+}
+
+.fa-btn
+{
+	margin-right: 6px;
+}
+
+@import 'components/alert';
