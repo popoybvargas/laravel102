@@ -17,7 +17,7 @@ class MustBeAdministrator
     {
         $user = $request->user();
 
-        if ( $user && $user->username == 'JohnAdministratorDoe' )
+        if ( $user && $user->name == 'Popoy Vargas' )
         {
             return $next( $request );
         }

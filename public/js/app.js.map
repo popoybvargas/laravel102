@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"app.js","sourcesContent":["function sayHello( message = 'Hello everyone!' )\n{\n\talert( message );\n}\n\nvar isOfDrinkingAge = function isOfDrinkingAge( age )\n{\n\treturn age >= 21;\n};"],"sourceRoot":"/source/"}

@@ -17,6 +17,11 @@ a:hover
 	text-decoration: none;
 }
 
+textarea
+{
+	text-align: center;
+}
+
 #contentBody
 {
     margin-top: 10px;
@@ -25,6 +30,22 @@ a:hover
 #contentBody2
 {
 	margin-top: 20px;
+}
+
+#formFeedback
+{
+	margin: 20px 0;
+}
+
+#formFeedback ul
+{
+	padding: 0;
+}
+
+#formFeedback li
+{
+	list-style-type: none;
+	font-style: italic;
 }
 
 .fa-btn
